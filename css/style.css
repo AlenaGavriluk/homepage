@@ -55,7 +55,7 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
-    background-color: rgb(208, 208, 225);
+    background: rgb(208, 208, 225);
 }
 
 h1 {
