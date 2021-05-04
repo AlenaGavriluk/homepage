@@ -25,10 +25,6 @@ html,
 body {
     margin: 0;
     line-height: 1.4285em;
-    color: rgb(208, 208, 225);
-}
-
-.stackable grid {
     color: rgb(40, 40, 62);
 }
 
@@ -658,6 +654,7 @@ article {
 /* Contacts */
 .contacts {
     list-style: none outside none;
+    text-align: right;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
