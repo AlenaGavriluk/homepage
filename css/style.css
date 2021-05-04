@@ -1,11 +1,11 @@
 ﻿/*based on  https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css */
 
 ::-moz-selection {
-    background: yellow;
+    background: indianred;
 }
 
 ::selection {
-    background: yellow;
+    background: indianred;
 }
 
 *,
@@ -80,6 +80,7 @@ h3 {
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: 0.15em;
+    background: rgb(208, 208, 225);
 }
 
 h4 {
