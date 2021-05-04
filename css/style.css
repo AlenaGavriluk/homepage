@@ -674,6 +674,14 @@ article {
                 color: dimgrey;
             }
 
+            .contacts li a.twitter:hover {
+                color: IndianRed;
+            }
+
+            .contacts li a.instagram:hover {
+                color: dimgrey;
+            }
+
             .contacts li a.skype:hover {
                 color: #00aff0;
             }
