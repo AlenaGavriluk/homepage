@@ -314,7 +314,7 @@ article {
 .page {
     position: relative;
     padding: 3em;
-    background: white;
+    background: gray;
     box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.1);
     transition: box-shadow 0.2s linear;
 }
