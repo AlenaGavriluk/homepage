@@ -181,6 +181,15 @@ a {
         text-decoration: underline;
     }
 
+    a.btn {
+        display: inline-block;
+        background: #8C959D; 
+        color: #fff; 
+        padding: 1rem 1.5rem; 
+        text-decoration: none;
+        border-radius: 3px;
+    }
+
 code {
     border: 1px solid #BDBDBD;
     padding: 0em 0.25em;
@@ -675,7 +684,7 @@ article {
             }
 
             .contacts li a.twitter:hover {
-                color: IndianRed;
+                color: dimgrey;
             }
 
             .contacts li a.instagram:hover {
