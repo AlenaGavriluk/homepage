@@ -16,7 +16,7 @@
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" charset="600" />
-    <meta property="og:image" content="https://github.com/AlenaGavriluk/homepage/blob/feature/smm/img/resizeimage_for_social_media.png?raw=true">
+    <meta property="og:image" content="https://github.com/AlenaGavriluk/homepage/blob/main/img/resizeimage_for_social_media.png?raw=true">
     <meta property="og:image:alt" content="The picture of Ryu">
     <meta property="og:description" content="My very own personal website. Basically this is just a résumé.">
     <meta property="og:site_name" content="https://alenagavriluk.github.io/homepage/">
@@ -26,19 +26,20 @@
   <body>
       <main>
           <article>
-              <div class="page" style="border-color: midnightblue;">
+              <div class="page" style="border-color: darkgray;">
                   <div class="stackable grid">
+                      
                       <div class="row">
+
                           <div class="three wide center aligned column">
-
-                              <img class="avatar" src="./img/avatar.jpg">
-
+                              <div class="avatar-wrapper">
+                                  <object class="avatar" data="./img/avatar.jpg" role="img" aria-label="My profile picture"></object>
+                              </div>
                           </div>
+
                           <div class="thirteen wide column">
                               <div class="stackable grid">
                                   <div class="sixteen wide column">
-                                      <h1 class="name"> Ryu Hoshi (リュウ Ryū)</h1>
-                                      <div class="job">street fighter</div>
                                       <ul class="contacts">
                                           <li>
                                               <a href="https://www.facebook.com/profile.php?id=100004808958030" rel="author" class="facebook">
@@ -71,6 +72,8 @@
                                                   </span>
                                               </a>
                                       </ul>
+                                      <h1 class="name"> Ryu Hoshi (リュウ Ryū)</h1>
+                                      <div class="job">street fighter</div>
                                   </div>
                                   <div class="sixteen wide mobile only column">
                                       <div class="divider"></div>
@@ -158,7 +161,11 @@
                               <!-- Languages -->
                               <section>
                                   <h3>Languages</h3>
-                                  <p class="tags small"><a href="" hreflang="cn" rel="alternate" class="language" lang="cn">🇺🇦 <span>MANDARIN</span></a> <a href="" hreflang="jp" rel="alternate" class="language" lang="jp">🇷🇺 <span>JAPANESE</span></a> <span class="language" lang="en">🇺🇸 ENGLISH</span></p>
+                                  <p class="tags small">
+                                      <a href="" hreflang="zh-cn" rel="alternate" class="language" lang="zh-cn"><span>cn MANDARIN</span></a>
+                                      <a href="" hreflang="ja" rel="alternate" class="language" lang="ja"><span>ja JAPANESE</span></a>
+                                      <a href="" hreflang="en-us" rel="alternate" class="language" lang="en-us"><span>🇺🇸 ENGLISH</span></a>
+                                  </p>
                               </section>
                               <!-- Skills -->
                               <section>
@@ -196,6 +203,8 @@
                                   <ul>
                                       <li>
                                           <p class="tags small">2011 The true and humble story of me under pseudonim Tyler Wilde in an article "The evolution of Ken and Ryu"</p>
+                                      </li>
+                                      <li>
                                           <p class="tags small">2003-2018 For 15 years I have published comic books with Udon Entertainment depicting my adventures, bitter lessons and great victories.</p>
                                       </li>
                                   </ul>

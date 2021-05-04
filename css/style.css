@@ -1,11 +1,11 @@
 ﻿/*based on  https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css */
 
 ::-moz-selection {
-    background: yellow;
+    background: indianred;
 }
 
 ::selection {
-    background: yellow;
+    background: indianred;
 }
 
 *,
@@ -55,6 +55,7 @@ h1,
 h2,
 h3 {
     text-transform: uppercase;
+    background: rgb(208, 208, 225);
 }
 
 h1 {
@@ -79,6 +80,7 @@ h3 {
     font-weight: 700;
     font-size: 1.25rem;
     letter-spacing: 0.15em;
+    background: rgb(208, 208, 225);
 }
 
 h4 {
@@ -330,7 +332,7 @@ article {
             top: 2em;
             right: 2em;
             bottom: 2em;
-            border-color: inherit;
+            border-color: rgb(208, 208, 225);
             border-width: 1em;
             border-style: solid;
             pointer-events: none;
@@ -606,11 +608,11 @@ article {
 
 /* Divider */
 .divider {
-    border-top: 1px solid rgba(222, 222, 222, 1);
+    border-top: 3px solid rgb(205, 92, 92);
 }
 
     .divider.fat {
-        border-top: 0.3571428571428571em solid rgba(10, 10, 10, 1);
+        border-top: 0.3571428571428571em solid rgb(205, 92, 92);
         width: 33%;
     }
 
@@ -654,6 +656,7 @@ article {
 /* Contacts */
 .contacts {
     list-style: none outside none;
+    text-align: right;
     display: flex;
     flex-wrap: wrap;
     padding: 0;
@@ -679,23 +682,23 @@ article {
         }
 
             .contacts li a.facebook:hover {
-                color: #3b5998;
+                color: indianred;
             }
 
             .contacts li a.github:hover {
-                color: dimgrey;
+                color: indianred;
             }
 
             .contacts li a.mail:hover {
-                color: dimgrey;
+                color: indianred;
             }
 
             .contacts li a.twitter:hover {
-                color: dimgrey;
+                color: indianred;
             }
 
             .contacts li a.instagram:hover {
-                color: dimgrey;
+                color: indianred;
             }
 
             .contacts li a.skype:hover {
@@ -792,7 +795,7 @@ details {
         content: " ";
         border-top: 0.35em solid transparent;
         border-bottom: 0.35em solid transparent;
-        border-left: 0.5em solid black;
+        border-left: 0.5em solid rgb(205, 92, 92);
         position: relative;
         width: 0.5em;
         height: 0.7em;
