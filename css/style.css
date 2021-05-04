@@ -26,6 +26,7 @@ body {
     margin: 0;
     line-height: 1.4285em;
     color: rgba(0, 0, 0, 0.87);
+    background-color: darkgray;
 }
 
 body {
@@ -658,7 +659,6 @@ article {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    margin-left: 500px;
     margin-top: 0;
     margin-bottom: 0;
     white-space: nowrap;
