@@ -100,6 +100,11 @@ section {
     padding: 1em 0;
 }
 
+div.sharing_buttons {
+    display: flex;
+    align-items: center;
+}
+
 p {
     margin: 0 0 1em;
     line-height: 1.4285em;
