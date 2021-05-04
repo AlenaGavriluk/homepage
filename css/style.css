@@ -25,7 +25,7 @@ html,
 body {
     margin: 0;
     line-height: 1.4285em;
-    color: rgba(0, 0, 0, 0.87);
+    color: rgb(208, 208, 225);
 }
 
 body {
@@ -606,11 +606,11 @@ article {
 
 /* Divider */
 .divider {
-    border-top: 1px solid rgba(222, 222, 222, 1);
+    border-top: 3px solid rgb(205, 92, 92);
 }
 
     .divider.fat {
-        border-top: 0.3571428571428571em solid rgba(10, 10, 10, 1);
+        border-top: 0.3571428571428571em solid rgb(205, 92, 92);
         width: 33%;
     }
 
@@ -792,7 +792,7 @@ details {
         content: " ";
         border-top: 0.35em solid transparent;
         border-bottom: 0.35em solid transparent;
-        border-left: 0.5em solid black;
+        border-left: 0.5em solid rgb(205, 92, 92);
         position: relative;
         width: 0.5em;
         height: 0.7em;
